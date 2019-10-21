@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  celda.h
 //  tablas1 16-10
 //
 //  Created by Juan Alvarez on 16/10/2019.
@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
+@interface celda : UITableViewCell
 
-
-
-
-
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
 
 @end
-

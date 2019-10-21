@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2864388B2357848F00D40358 /* celda.m in Sources */ = {isa = PBXBuildFile; fileRef = 2864388A2357848F00D40358 /* celda.m */; };
 		288EC2142357794D00756857 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288EC2132357794D00756857 /* AppDelegate.m */; };
 		288EC2172357794D00756857 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288EC2162357794D00756857 /* SceneDelegate.m */; };
 		288EC21A2357794D00756857 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288EC2192357794D00756857 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286438892357848000D40358 /* celda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = celda.h; sourceTree = "<group>"; };
+		2864388A2357848F00D40358 /* celda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = celda.m; sourceTree = "<group>"; };
 		288EC20F2357794D00756857 /* tablas1 16-10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tablas1 16-10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		288EC2122357794D00756857 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		288EC2132357794D00756857 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				288EC2202357794F00756857 /* LaunchScreen.storyboard */,
 				288EC2232357794F00756857 /* Info.plist */,
 				288EC2242357794F00756857 /* main.m */,
+				286438892357848000D40358 /* celda.h */,
+				2864388A2357848F00D40358 /* celda.m */,
 			);
 			path = "tablas1 16-10";
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2864388B2357848F00D40358 /* celda.m in Sources */,
 				288EC21A2357794D00756857 /* ViewController.m in Sources */,
 				288EC2142357794D00756857 /* AppDelegate.m in Sources */,
 				288EC2252357794F00756857 /* main.m in Sources */,
